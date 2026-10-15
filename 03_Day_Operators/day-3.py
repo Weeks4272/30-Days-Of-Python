@@ -127,3 +127,13 @@ print(not True)      # False - Negation, the not operator turns true to false
 print(not False)     # True
 print(not not True)  # True
 print(not not False)  # False
+
+age = int(input('Enter your age: '))
+
+height = float(input('Enter your height in feet: '))
+
+complex_number = complex(input('Enter a complex number: '))
+
+def calcAreaOfTriangle(base, height):
+    area = 0.5 * base * height
+    return area
